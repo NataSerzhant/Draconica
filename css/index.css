@@ -291,7 +291,9 @@
         margin-bottom: 10px;
         border: 1px solid red;
     }
-
+    .plreg-xl:hover {
+        transform: scale(1.1);
+    }
     .start-play2,
     .reg-play2 {
         background-image: url(../img/streg.png);
