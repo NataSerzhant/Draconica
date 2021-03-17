@@ -338,12 +338,6 @@
         width: 400px;
     }
 
-    #box1:target {
-        display: block;
-        position: absolute;
-        z-index: 999;
-    }
-
     .poster:hover .descr {
         display: block;
         position: absolute;
@@ -658,7 +652,12 @@ margin-top: 100px;
         .pages {
             font-size: 15px;
         }
-
+  
+        .poster:hover .descr {
+            margin-top: -200px;
+            margin-left: 40px;
+            width: 70%;
+        }
     }
 
     @media all and (max-width: 600px) {
